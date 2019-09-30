@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<h3>텍스트 입력상자</h3>
+<fieldset>
+<legend>로그인 정보 입력</legend>
+<p>이름: <input type = "text"
+				size = "50"
+				maxlength = "10"
+				name = "txtID"
+				value = ""
+				placeholder = "여기에 ID 입력"> </p>
+<p>패스워드: <input type ="password"
+					size = "50"
+					name = "txtPW"> </p>
+</fieldset>
+
+<h3>단락 형식의 텍스트 입력 상자</h3>
+<textarea rows="20" cols="100"></textarea>
+
+
+<h3>선택 입력 - 라디오 버튼</h3>
+Q.당신이 좋아하는 동물은<br>
+<input type = "radio" name = "favAnimal" value ="cat">고양이
+<input type = "radio" name = "favAnimal" value = "dog" >강아지
+<input type = "radio" name = "favAnimal" value = "tiger">호랑이
+<input type = "radio" name = "favAnimal" value = "lion" checked>사자
+<input type = "radio" name = "favAnimal" value = "fox">여우
+<input type = "radio" name = "favAnimal" value = "alphaca">알파카
+
+
+<h3>선택 입력 - 체크상자 버튼</h3>
+<input type = "checkbox" name = "favFruit">수박
+<input type = "checkbox" name = "favFruit">사과
+<input type = "checkbox" name = "favFruit">딸기
+<input type = "checkbox" name = "favFruit">배
+<input type = "checkbox" name = "favFruit">파인애플
+
+<h3>선택목록 - 셀렉트상자</h3>
+Q.당신의 학과는
+<select name = sltsubject>
+	<optgroup label="자연대">
+		<option>수학과</option>
+		<option>화학</option>
+		<option>물리</option>
+	</optgroup>
+	
+	<optgroup label="외국어">
+		<option>영어</option>
+		<option>일본어</option>
+		<option>러시아어</option>
+	</optgroup>
+	
+	<optgroup label="공학">
+		<option>기계공학</option>
+		<option>전자공학</option>	
+		<option>컴퓨터공학</option>
+		<option>건축학</option>
+	</optgroup>
+</select>
+
+<h3>당신의 전공은?</h3>
+<select name = major>
+	<optgroup label="computer">
+		<option>Software</option>
+		<option>Robot</option>
+		<option>System</option>
+	</optgroup>
+	
+	<optgroup label="language">
+		<option>Korean</option>
+		<option>English</option>
+		<option>Chinese</option>
+	</optgroup>
+	
+	<optgroup label="business">
+		<option>Service</option>
+		<option>Education</option>	
+		<option>Communication</option>
+		<option>Marketing</option>
+	</optgroup>
+</select>
+
+</body>
+</html>
