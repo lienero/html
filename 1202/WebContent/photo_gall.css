@@ -51,7 +51,7 @@ li {list-style-type:none;}
 .thumnail .navi_left { margin: 20px 5px 0 40px; float: left; }
 /*썸네일 그림 */
 .thumnail .photos { margin: 3px 0 0 0; float: left;}
-.thumnail .photos li { display: inline; float: left;}
+.thumnail .photos li { display: inline;}
 .thumnail .photos img { border: solid 5px #3d3d3d;}
 .thumnail .photos a:hover img { border: solid 5px #ffffff;}
 /*오른쪽 화살표 */
